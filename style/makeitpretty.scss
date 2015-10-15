@@ -1,11 +1,12 @@
 ---
 ---
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-@import 'components/fontawesome';
+@import "components/fontawesome";
+@import "components/header";
+@import "components/about";
 
-.header {
-  font-family: 'Raleway', sans-serif;
-  font-size: 7em;
-  float: left;
-  margin: 0;
+
+
+html{
+  font-family: sans-serif;
 }
