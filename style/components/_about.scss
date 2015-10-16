@@ -16,7 +16,18 @@ article{
 .about-footer {
   text-align: center;
   margin-top: 15px;
+
   & > a {
-    margin-left: 20px;
+    display: inline-block;
+    & > i {
+      font-size: 2em;
+    }
+    &:not(:first-child){
+      margin-left: 20px;
+    }
+
+  }
+
+  & > a:not(:first-child) {
   }
 }
