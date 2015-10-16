@@ -1,7 +1,12 @@
-.fa-spotify:hover{
-  color: green;
-}
 
-.fa-linkedin:hover{
-  color: blue;
+@mixin make-contact-link($hover-color) {
+  i{margin-right: 0.2em};
+
+  &:hover{
+    color: $hover-color;
+  }
 }
+.spotify-link{ @include make-contact-link(green) };
+.linkedin-link {@include make-contact-link(blue) };
+.lastfm-link {@include make-contact-link(red) };
+.github-link {@include make-contact-link(gray) };
