@@ -1,7 +1,10 @@
 header {
-  float: right;
-
+  position: fixed;
+  width: 95%;
+  margin: 5px;
    & > a{
+     padding: 5px;
+     float: right;
      color: gray;
      &:hover{
        color: #9F7466;
