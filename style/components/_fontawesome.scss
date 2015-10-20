@@ -6,7 +6,7 @@
     color: $hover-color;
   }
 }
-.spotify-link{ @include make-contact-link(green) };
-.linkedin-link {@include make-contact-link(blue) };
+.spotify-link{ @include make-contact-link(#2EBD59) };
+.linkedin-link {@include make-contact-link(#0077B5) };
 .lastfm-link {@include make-contact-link(red) };
 .github-link {@include make-contact-link(gray) };
