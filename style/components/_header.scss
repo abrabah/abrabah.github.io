@@ -7,7 +7,7 @@ header {
      float: right;
      color: gray;
      &:hover{
-       color: #9F7466;
+       color: $header-color;
      }
    }
 
