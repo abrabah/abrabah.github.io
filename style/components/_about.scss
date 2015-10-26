@@ -1,17 +1,16 @@
-.title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 7em;
-  float: left;
-  margin: 0 10%;
-  color: $header-color;
-}
-
-
 .about-me{
   content:'';
   display:block;
   clear: both;
   margin: 0 20%;
+
+  strong{
+    display:block;
+    font-size: 7em;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: $header-color;
+  }
 }
 
 .about-footer {
