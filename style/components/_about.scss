@@ -2,13 +2,33 @@
   font-family: 'Raleway', sans-serif;
   font-size: 7em;
   float: left;
-  margin: 0;
+  margin: 0 10%;
+  color: $header-color;
 }
 
 
-article{
+.about-me{
   content:'';
   display:block;
   clear: both;
   margin: 0 20%;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 15px;
+
+  & > a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+
+    & > i {
+      font-size: 2em;
+    }
+    &:not(:first-child){
+      margin-left: 20px;
+    }
+  }
+
 }
