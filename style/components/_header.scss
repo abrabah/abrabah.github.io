@@ -1,12 +1,13 @@
-header {
+.header {
   position: fixed;
-  width: 95%;
-  margin: 5px;
-
+  width: 90%;
+  margin: 10px 5%;
+  text-align: right;
+  height: $header-height;
 
   & > a{
+    text-decoration: none;
     padding: 5px;
-    float: right;
     color: $header-color;
     &:hover{
       color:  purple;
