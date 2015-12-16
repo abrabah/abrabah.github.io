@@ -1,34 +1,33 @@
-.title {
-  font-family: 'Raleway', sans-serif;
-  font-size: 7em;
-  float: left;
-  margin: 0 10%;
-  color: $header-color;
-}
-
-
-.about-me{
-  content:'';
-  display:block;
-  clear: both;
-  margin: 0 20%;
-}
-
-.about-footer {
-  text-align: center;
-  margin-top: 15px;
-
-  & > a {
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
-
-    & > i {
-      font-size: 2em;
-    }
-    &:not(:first-child){
-      margin-left: 20px;
-    }
+.about{
+  .title{
+    font-size: 7em;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: $header-color;
   }
 
+  .about-footer {
+    & > :link, :visited{
+      color: inherit;
+    }
+
+    .spotify-link{ @include make-contact-link(#2EBD59) };
+    .linkedin-link {@include make-contact-link(#0077B5) };
+    .lastfm-link {@include make-contact-link(red) };
+    .github-link {@include make-contact-link(gray) };
+
+    text-align: center;
+    margin-top: 15px;
+
+    & > a {
+      text-decoration: none;
+      display: inline-block;
+      & > i {
+        font-size: 2em;
+      }
+      &:not(:first-child){
+        margin-left: 20px;
+      }
+    }
+  }
 }

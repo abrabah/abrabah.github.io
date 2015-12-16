@@ -1,15 +1,19 @@
-header {
+.header {
   position: fixed;
-  width: 95%;
-  margin: 5px;
-   & > a{
-     padding: 5px;
-     float: right;
-     color: gray;
-     &:hover{
-       color: $header-color;
-     }
-   }
+  width: 90%;
+  margin: 10px 5%;
+  text-align: right;
+  height: $header-height;
 
+  & > a{
+    text-decoration: none;
+    padding: 5px;
+    color: $header-color;
+    &:hover{
+      color:  purple;
+      border-bottom: solid;
+      border-bottom-width: thin;
 
+    }
+  }
 }
