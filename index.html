@@ -1,6 +1,22 @@
 ---
 layout: default
-title: Hello world
+title: Abrabah
 ---
 
+
+<strong class="title">abrabah</strong>
+
+<p>
   Work in progress.. Why don't you <a href="http://abrabah.no/tetris-reactjs/">play some tetris</a> while you're waiting ;)
+</p>
+
+<section class="posts">
+  {% for post in site.posts %}
+    <article class="post-element" onclick="location.href='{{ post.url }}'">
+       <h2 class="post-title">{{ post.title }}</h2>
+       <p class="post-excerpt"> {{ post.excerpt }}  </p>
+       <p class="post-date">{{ post.date | date: "%B %d, %Y"  }}</p>
+  </article>
+  <hr/>
+  {% endfor %}
+</section>

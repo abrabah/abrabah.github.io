@@ -1,0 +1,21 @@
+
+
+
+.post-element{
+  padding: 5px;
+  &:hover{
+    background-color: darken($page-background-color, 5%);
+    cursor: pointer;
+  }
+
+  .post-title{
+    color: $header-color;
+  }
+  .post-excerpt{
+    margin-top: 0;
+  }
+  .post-date{
+    text-align: right;
+  }
+
+}
