@@ -1,6 +1,18 @@
 ---
 layout: default
-title: Hello world
+title: Abrabah
 ---
 
-  Work in progress.. Why don't you <a href="http://abrabah.no/tetris-reactjs/">play some tetris</a> while you're waiting ;)
+
+<section class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    </article>
+
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+
+  {% endfor %}
+</section>
