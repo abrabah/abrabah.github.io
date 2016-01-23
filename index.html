@@ -4,13 +4,16 @@ title: Abrabah
 ---
 
 
+<strong class="title">abrabah</strong>
+
+
 <section class="posts">
   {% for post in site.posts %}
-    <article class="post-element">
-       <p class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+    <article class="post-element" onclick="location.href='{{ post.url }}'">
+       <h2 class="post-title">{{ post.title }}</h2>
        <p class="post-excerpt"> {{ post.excerpt }}  </p>
        <p class="post-date">{{ post.date | date: "%B %d, %Y"  }}</p>
   </article>
-  <div class="post-separator"></div>
+  <hr/>
   {% endfor %}
 </section>
