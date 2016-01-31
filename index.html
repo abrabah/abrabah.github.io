@@ -5,16 +5,16 @@ title: Abrabah
 
 
 <strong class="title">abrabah</strong>
-
-<p>
-  Work in progress.. Why don't you <a href="http://abrabah.no/tetris-reactjs/">play some tetris</a> while you're waiting ;)
+<p class="sub-title" style="font-style: italic">
+    "When you're curious, you find lots of interesting things to do" , <span style="font-style: unset">Walt Disney</span>
 </p>
+
 
 <section class="posts">
   {% for post in site.posts %}
     <article class="post-element" onclick="location.href='{{ post.url }}'">
        <h2 class="post-title">{{ post.title }}</h2>
-       <p class="post-excerpt"> {{ post.excerpt }}  </p>
+       <p class="text-content">{{ post.excerpt| remove: '<p>' | remove: '</p>' }}</p>
        <p class="post-date">{{ post.date | date: "%B %d, %Y"  }}</p>
   </article>
   <hr/>

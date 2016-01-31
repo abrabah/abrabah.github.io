@@ -27,6 +27,11 @@ body{
   color: $header-color;
 }
 
+.sub-title{
+  text-align: right;
+  font-style: italic;
+}
+
 hr{
   color: $link-color;
   width: 20%;
