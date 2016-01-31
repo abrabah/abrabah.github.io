@@ -12,5 +12,5 @@ I will find time to write about it all ;p
 
 
 **PS:**
-This page is hosted on [github](https://github.com/abrabah/abrabah.github.io) using [github pages](https://pages.github.com/) and 
-[jekyll](http://jekyllrb.com/). Have a look if you're curious!  
+This page is hosted on github using [github pages](https://pages.github.com/) and 
+[jekyll](http://jekyllrb.com/). [Have a look](https://github.com/abrabah/abrabah.github.io) if you're curious!  
