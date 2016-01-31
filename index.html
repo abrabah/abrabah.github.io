@@ -3,14 +3,15 @@ layout: default
 title: Abrabah
 ---
 
+<section class="post-overview-header">
+    <strong class="title">abrabah</strong>
+    <p class="sub-title" style="font-style: italic">
+        "When you're curious, you find lots of interesting things to do" , <br/> <span style="font-style: unset">Walt Disney</span>
+    </p>
+</section>
 
-<strong class="title">abrabah</strong>
-<p class="sub-title" style="font-style: italic">
-    "When you're curious, you find lots of interesting things to do" , <span style="font-style: unset">Walt Disney</span>
-</p>
 
-
-<section class="posts">
+<section >
   {% for post in site.posts %}
     <article class="post-element" onclick="location.href='{{ post.url }}'">
        <h2 class="post-title">{{ post.title }}</h2>

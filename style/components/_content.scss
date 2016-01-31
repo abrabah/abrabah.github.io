@@ -1,8 +1,11 @@
 
-.content{
-content:'';
-display:block;
-clear: both;
-padding-top: $header-height + 20;
-margin: 0 20%;
+.content {
+  content: '';
+  display: block;
+  clear: both;
+  padding: $header-height + 20 20% 0 20%;
+
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 300px;
 }

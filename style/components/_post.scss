@@ -1,5 +1,8 @@
 
-
+.post-overview-header{
+  border-left:solid 15px #ffc0cb;
+  padding-left: 5px;
+}
 
 .post-element{
   padding: 5px;
@@ -10,8 +13,9 @@
 
   .post-title{
     color: $header-color;
+    margin-bottom: 0.1em;
   }
-  .post-excerpt{
+  .text-content{
     margin-top: 0;
   }
   .post-date{
