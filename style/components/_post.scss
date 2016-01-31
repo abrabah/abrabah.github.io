@@ -4,7 +4,7 @@
 .post-element{
   padding: 5px;
   &:hover{
-    background-color: darken($page-background-color, 5%);
+    background-color: darken($page-background-color, 3%);
     cursor: pointer;
   }
 
@@ -18,4 +18,10 @@
     text-align: right;
   }
 
+
+}
+.text-content{
+  line-height: 1.65;
+  font-family: "Open Sans",Helvetica,sans-serif;
+  font-size: 1.1em;
 }
