@@ -32,7 +32,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: $header-color;
 
-  @media (max-width: $small-screen-width) {
+  @media only screen, (max-width: $small-screen-width) {
     font-size: 3em;
   }
 
