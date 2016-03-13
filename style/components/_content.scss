@@ -5,6 +5,10 @@
   clear: both;
   padding: $header-height + 20 20% 0 20%;
 
+  @media (max-width: $small-screen-width) {
+    padding: 15px;
+  }
+
   margin: 0 auto;
   max-width: 1000px;
   min-width: 300px;
