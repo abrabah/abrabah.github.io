@@ -1,3 +1,6 @@
+
+@import "../media-mixin";
+
 .header {
   position: fixed;
   width: 90%;
@@ -20,7 +23,7 @@
     }
   }
 
-  @media only screen, (max-width: $small-screen-width) {
+ @include small-screen{
     position: static;
 
     margin: 0px 5% 10px 0;
@@ -55,7 +58,7 @@
     font-style: italic;
   }
 
-  @media only screen, (max-width: $small-screen-width) {
+  @include small-screen {
     display: none;
   }
 }

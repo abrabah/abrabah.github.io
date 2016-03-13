@@ -5,7 +5,7 @@
   clear: both;
   padding: $header-height + 20 20% 0 20%;
 
-  @media only screen, (max-width: $small-screen-width) {
+  @include small-screen{
     padding: 15px;
   }
 
