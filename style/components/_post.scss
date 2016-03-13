@@ -1,4 +1,4 @@
-
+@import "../media-mixin";
 .post-overview-header{
   border-left:solid 15px #ffc0cb;
   padding-left: 5px;
@@ -25,7 +25,12 @@
 
 }
 .text-content{
-  line-height: 1.65;
+  line-height: 1.65em;
   font-family: "Open Sans",Helvetica,sans-serif;
   font-size: 1.1em;
+
+  @include small-screen{
+    line-height: 1.25em;
+  }
+
 }
