@@ -8,7 +8,8 @@
     .spotify-link{ @include make-contact-link(#2EBD59) };
     .linkedin-link {@include make-contact-link(#0077B5) };
     .lastfm-link {@include make-contact-link(red) };
-    .github-link {@include make-contact-link(gray) };
+    .other-link {@include make-contact-link(gray) };
+
 
     text-align: center;
     margin-top: 15px;
